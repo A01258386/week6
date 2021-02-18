@@ -9,3 +9,24 @@ ul.list>li {
 list-style-type:none;
 border-bottom: 1px grey solid;
 }
+
+ul a:hover{
+    color:pink;
+      }
+a:visited{
+    color:red;
+}
+a:link{
+    color:green;
+}
+body{
+    background-color:yellow
+}
+
+li:first-child::first-letter {
+    font-weight: bold;
+    font-size:120%
+}
+a[title~="BCIT"]{
+    background-color: greenyellow;
+}
