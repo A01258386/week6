@@ -30,3 +30,21 @@ li:first-child::first-letter {
 a[title~="BCIT"]{
     background-color: greenyellow;
 }
+
+img+p{
+float:right;
+}
+
+.target{
+    width:50px;
+    height:50px;
+    background-color: forestgreen; 
+    }
+.container
+    {
+    border: 2px gray solid;
+    }
+div .target {  
+    position:fixed;
+    top: 10px;
+    right: 10px;   }
